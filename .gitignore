@@ -1,0 +1,111 @@
+# ==============================================================================
+# Naruto Hand Signs MediaPipe Project - Git Ignore
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Datasets (Highly recommended to ignore raw images/labels to keep repo light)
+# ------------------------------------------------------------------------------
+data/
+datasets/
+*.zip
+*.tar
+*.gz
+*.rar
+
+# ------------------------------------------------------------------------------
+# Machine Learning Models / Weights / Exports
+# ------------------------------------------------------------------------------
+*.pt
+*.pth
+*.tflite
+*.onnx
+*.pb
+*.h5
+*.pkl
+*.npy
+*.npz
+runs/
+outputs/
+checkpoints/
+
+# ------------------------------------------------------------------------------
+# Python & Virtual Environments
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+ENV/local/
+ENV/shared/
+miniconda*/
+anaconda*/
+.conda/
+.ipynb_checkpoints
+
+# pipenv / poetry / pip-tools
+pip-log.txt
+pip-delete-this-directory.txt
+.pip-cache/
+.poetry/
+.pytest_cache/
+.mypy_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# ------------------------------------------------------------------------------
+# Jupyter Notebooks
+# ------------------------------------------------------------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.virtual_documents/
+
+# ------------------------------------------------------------------------------
+# System Files & Editors
+# ------------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editors & IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*~

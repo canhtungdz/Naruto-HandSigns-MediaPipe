@@ -1,0 +1,10 @@
+opencv-python
+mediapipe==0.10.21
+pandas
+numpy
+tqdm
+torch
+torchvision
+scikit-learn
+matplotlib
+seaborn
